@@ -1,6 +1,6 @@
  body {
      text-align: center;
-     background-color: rgb(78, 75, 99);
+     background-color: rgba(78, 75, 99, 0.89);
      color: rgb(176, 177, 197);
  }
 
@@ -14,4 +14,8 @@
 
  .work-container {
     text-align: left;
+ }
+
+ img {
+     margin-bottom: 1rem;
  }
