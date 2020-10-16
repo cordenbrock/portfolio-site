@@ -18,3 +18,11 @@
  img {
      margin-bottom: 1rem;
  }
+
+ .section {
+     background-color: black;
+ }
+
+ .col-spacing {
+    width: auto;
+ }
