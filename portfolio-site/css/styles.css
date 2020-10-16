@@ -1,11 +1,12 @@
  body {
      text-align: center;
+     background-color: rgb(78, 75, 99);
+     color: rgb(176, 177, 197);
  }
 
  .jumbo-background {
      background-image: url("../img/sahale-peak.png");
-     width: 100%;
-     background-attachment: fixed;
+
      background-repeat: no-repeat;
      background-size: cover;
      background-color: rgb(0, 0, 0);
