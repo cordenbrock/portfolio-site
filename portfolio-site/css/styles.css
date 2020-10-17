@@ -8,6 +8,16 @@
      background-attachment: fixed;
  }
 
+ h1 {
+    text-shadow: 0 .15rem rgba(0, 0, 0, 0.52);
+    font-family: Haettenschweiler;
+ }
+
+ .header {
+    font-family: Haettenschweiler;
+    
+ }
+
  .work-container {
     text-align: left;
  }
@@ -37,5 +47,15 @@
 }
 
 a {
-    color: rgb(76, 76, 124);
+    color: rgb(82, 82, 133);
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(19, 73, 28);
+    text-decoration: none;
+}
+
+.nav-add {
+    background-color: rgb(0, 0, 0);
 }
