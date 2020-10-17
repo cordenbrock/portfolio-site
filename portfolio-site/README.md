@@ -21,4 +21,4 @@ _This website is my portfolio landing page. In addition to detailing my coding p
 
 ### Legal
 
-_Distributed under the MIT License, copyright (c) 2020 Cory Nordenbrock_
+_Distributed under the MIT License, Copyright (c) 2020 Cory Nordenbrock_
