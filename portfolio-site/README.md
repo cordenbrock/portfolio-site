@@ -12,7 +12,7 @@ _This website is my portfolio landing page. In addition to detailing my coding p
 * _Clone repository: "git clone https://github.com/cordenbrock/portfolio-site.git"_
 * _Navigate to portfolio-site directory: "cd portfolio-site"_
 * _Launch with default code editor: "code ."_
-* _Alternatively, view website hosted on github-pages: https://cordenbrock.github.io/portfolio-site_
+* _Alternatively, view website hosted on github-pages: https://cordenbrock.github.io/portfolio-site/portfolio-site_
 
 ## Built with
 
