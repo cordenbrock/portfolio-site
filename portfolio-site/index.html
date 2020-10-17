@@ -6,14 +6,32 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-sm sticky" style="background-color: black;">
+        <!-- Links -->
+        <ul class="navbar-nav"  style="background-color: rgba(0, 0, 0, 0)">
+          <li class="nav-item">
+            <a class="nav-link" href="#">portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact</a>
+          </li>
+        </ul>
+      </nav>
     <!-- header -->
-        <div class="jumbotron background-image">
+        <div class="jumbotron" style="background: none; padding-bottom: 55rem;">
             <h1>Cory Nordenbrock</h1>
             <em>i <strong>develop</strong> lorem ipsums</em>
         </div>
     <!-- portfolio section -->
-    <div class="container">
-        <h1 class="section">portfolio</h1>
+    <div class="container-fluid section">
+        <h1>PORTFOLIO</h1>
         <hr>
         <div class="row">
             <div class="col-md-6">
@@ -22,7 +40,7 @@
                     <p>This project is a website I built for a fake travel agency</p>
                     <p>This site was written in basic html and styled using both bootstrap and custom stylesheets</p>
                     <p>Be sure to "ride" the image carousel, the site's predominant feature!</p>
-                    <p>View <a href="https://github.com/DukeSkywhopper/vacation-destination"><span style="color:rgb(16, 66, 16)">source code</span></a></p>
+                    <p>View <a href="https://github.com/DukeSkywhopper/vacation-destination"><strong style="color:rgb(16, 66, 16)">source code</strong></a></p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -65,23 +83,23 @@
         </div>
     </div>
     <!-- about me section -->
-    <div class="container">
-        <h1 class="section">about me</h1>
+    <div class="container-fluid section">
+        <h1>ABOUT ME</h1>
         <hr>
         <div class="container">
-            <img src="img/me.jpg" alt="picture of developer about to go shred that powy gnar gnar" height=300 width=300>
+            <img src="img/me.jpg" alt="picture of developer about to go shred that powy gnar gnar" height=500 width=500>
         </div>
         <p>originally from the midwest, settling in the great PNW</p>
         <p>when not coding, i enjoy backpacking, strummin' thee ol' 6-string, reading books, and cinematic adventures!</p>
     </div>
-    <!-- work with me section -->
-    <div class="container">
-        <h1 class="section">work with me</h1>
+    <!-- experience section -->
+    <div class="container-fluid section">
+        <h1>EXPERIENCE</h1>
         <hr>
         <div class="row">
             <div class="col-md-4">
                 <h3>languages and frameworks:</h3>
-                <ol class="work-container">
+                <ul class="work-container">
                     <li>html</li>
                     <li>css</li>
                     <li>bootstrap</li>
@@ -105,7 +123,7 @@
             <div class="col-md-4">
                 <h3>credentials:</h3>
                 <p>B.A. History, Indiana University</p>
-                <p>Epicodus graduate</p>
+                <p>Epicodus graduate (prospectively)</p>
                 <p>view github</p>
                 <p>view <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3"><span style="color:rgb(16, 66, 16)">resume</span></a></p>
             </div>
