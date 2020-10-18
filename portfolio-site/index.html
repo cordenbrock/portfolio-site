@@ -7,33 +7,33 @@
 </head>
 <body>
     <!-- nav-bar -->
-    <nav class="navbar navbar-expand-sm sticky nav-add">
+    <nav class="navbar navbar-expand-sm sticky nav-custom">
         <!-- Links -->
-        <ul class="navbar-nav"  style="background-color: rgba(0, 0, 0, 0)">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">portfolio</a>
+            <a class="nav-link" href="#portfolio">portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">about</a>
+            <a class="nav-link" href="#about">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">experience</a>
+            <a class="nav-link" href="#experience">experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">contact</a>
+            <a class="nav-link" href="#contact">contact</a>
           </li>
         </ul>
       </nav>
     <!-- header -->
-        <div class="jumbotron jumbo-add">
-            <h1 class="header text-uppercase">Cory Nordenbrock</h1>
+        <div class="jumbotron jumbo-custom">
+            <h1 class="text-uppercase">Cory Nordenbrock</h1>
             <em>i <strong>develop</strong> lorem ipsums</em>
         </div>
     <!-- portfolio section -->
-    <div class="container-fluid section">
-        <h1 class="shadow p-3 mb-5">PORTFOLIO</h1>
+    <div id="portfolio" class="container-fluid section">
+        <h1 class="p-3 mb-5">PORTFOLIO</h1>
         <hr>
-        <div class="row">
+        <div class="row pb-5">
             <div class="col-md-6">
                 <div class="col-md-12">
                     <h3>Vacation Destination</h3>
@@ -50,7 +50,7 @@
             </div>
          </div>
          <hr>
-         <div class="row">
+         <div class="row pb-5">
             <div class="col-md-6">
                 <div class="col-md-12">
                     <img src="img/cupcake-shop.png" alt="picture of cupcake shop website" height=300 width=400>
@@ -66,7 +66,7 @@
             </div>
         </div>
         <hr>
-        <div class="row">
+        <div class="row pt-5 pb-5">
             <div class="col-md-6">
                 <div class="col-md-12">
                     <h3>The Hog Blog</h3>
@@ -83,49 +83,68 @@
         </div>
     </div>
     <!-- about me section -->
-    <div class="container-fluid section">
-        <h1 class="shadow p-3 mb-5 text-uppercase">About Me</h1>
+    <div id="about" class="container-fluid section">
+        <h1 class="p-3 mb-5 text-uppercase">About Me</h1>
         <div class="container">
             <img src="img/me.jpg" alt="picture of developer about to go shred that powy gnar gnar" height=500 width=500>
         </div>
-        <p>originally from the midwest, settling in the great PNW</p>
-        <p>when not coding, i enjoy backpacking, strummin' thee ol' 6-string, reading books, and cinematic adventures!</p>
+        <p>originally from the midwest, now settling in the great PNW</p>
+        <p>passionate in understanding complex systems and using various technologies to ccrafting elegant  and provide innovative solutions</p>
+        <p>when not coding, i enjoy backpacking, strummin' thee ol' 6-string, reading books, and cinematic adventures</p>
     </div>
     <!-- experience section -->
-    <div class="container-fluid section">
-        <h1 class="shadow p-3 mb-5">EXPERIENCE</h1>
-        <div class="row">
-            <div class="col-md-4">
-                <h3>languages and frameworks:</h3>
-                <ul class="work-container">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>bootstrap</li>
-                    <li>javascript</li>
-                    <li>C#</li>
-                    <li>.net</li>
-                    <li>react</li>
-                    <li>redux</li>
-                </ol>
-            </div>
-            <div class="col-md-4">
-                <h3>skills:</h3>
-                <ul class="work-container">
-                    <li>popsicle-stick sculptures</li>
-                    <li>whistling outside of human ear frequency detection range</li>
-                    <li>excellently laundered laundry</li>
-                    <li>tambourine solos</li>
-                    <li>tying shoes more quickly than the average person</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h3>credentials:</h3>
-                <p>B.A. History, Indiana University</p>
-                <p>Epicodus graduate (prospectively)</p>
-                <p>view <a href="https://github.com/cordenbrock"><strong>github</strong></a></p>
-                <p>view <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3"><strong>resume</strnog></a></p>
+    <div  id="experience" class="container-fluid section">
+        <h1 class="p-3 mt-5 mb-5">EXPERIENCE</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Languages, Frameworks, Dev-tools:</h3>
+                    <ul class="work-container">
+                        <li>html</li>
+                        <li>css</li>
+                        <li>bootstrap</li>
+                        <li>javascript</li>
+                        <li>react</li>
+                        <li>redux</li>
+                        <li>git/github</li>
+                        <li>heroku</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Skills:</h3>
+                    <ul>
+                        <li>popsicle-stick sculptures</li>
+                        <li>whistling outside of human ear frequency detection range</li>
+                        <li>excellently laundered laundry</li>
+                        <li>tambourine solos</li>
+                        <li>tying shoes more quickly than the average person</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Credentials:</h3>
+                    <p>B.A. History, Indiana University</p>
+                    <p>Epicodus graduate (prospectively)</p>
+                    <p>view <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3"><strong>resume</strnog></a></p>
+                </div>
             </div>
         </div>
     </div>
+        <!-- contact section -->
+        <div  id="contact" class="container-fluid section">
+            <h1 class="p-3 mt-5 mb-5 text-uppercase">Contact</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Email</h3>
+                            <p>cordenbrock@gmail.com</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Professional Resources</h3>
+                            <p>view <a href="https://github.com/cordenbrock">Github</a></p>
+                            <p>view <a href="https://cat-bounce.com/">LinkedIn</a></p>
+                        </div>
+                    </div>                    
+                </div>
+        </div>
 </body>
 </html>
