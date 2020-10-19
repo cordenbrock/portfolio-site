@@ -25,12 +25,20 @@
  img {
     margin-bottom: 1rem;
     border-radius: .5rem;
-    box-shadow: 0 0 1rem rgb(78, 75, 99);
+    box-shadow: 0 0 .75rem rgb(0, 0, 0);
  }
 
+ hr { 
+    position: relative; 
+    top: 20px; 
+    border: none; 
+    height: 1px; 
+    background: black; 
+    margin-bottom: 50px; 
+} 
  .section {
      background-color: rgba(0, 0, 0, 0.637);
-     padding: 2rem 0 2rem 0;
+     padding: 2rem 0 10rem 0;
  }
 
  .sticky {
@@ -60,4 +68,8 @@ a:hover {
 
 .nav-custom {
     background-color: rgb(0, 0, 0);
+}
+
+.footer-custom {
+    background-color: rgba(78, 75, 99, 0.89);
 }
